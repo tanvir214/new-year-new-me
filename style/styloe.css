@@ -14,6 +14,7 @@ body {
     background: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
 }
 
 .all-think-cont {
@@ -43,7 +44,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     border: none;
-    
+
 }
 
 .all-title {
@@ -81,7 +82,8 @@ body {
 
 .my,
 .plan,
-.always {
+.always,
+.footer-cont {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -125,6 +127,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 55px 0 60px 60px;
+    border-radius: 10px;
 }
 
 .call-title {
@@ -141,4 +144,47 @@ body {
     border-radius: 5px;
     background: #FFF;
 
+}
+
+
+footer {
+    background: #151414;
+    margin-top: 80px;
+    padding: 130px 0;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-ele {
+    width: 50%;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-des {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 80px;
+    padding-top: 14px;
+}
+
+.social img {
+    padding: 15px 5px 0 0;
+}
+
+.footer-ele input {
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding: 15px 35px;
+    margin-top: 10px;
 }
