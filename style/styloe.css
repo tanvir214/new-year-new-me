@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+.all-think {
+    display: flex;
+    background: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all-think-cont {
+    width: 525px;
+    padding: 200px 100px 180px 870px;
+    text-align: right;
+}
+
+.all-think-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.all-think-des {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 53px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #F15B22;
+    color: #fff;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    
+}
+
+.all-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.all-p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.p-cen {
+    text-align: center;
+}
+
+
+
+.li-style {
+    list-style: none;
+    align-items: center;
+}
+
+.fa-solid.fa-check {
+    color: #16D887;
+    font-size: 16px;
+    margin: 4px 0 0 3px;
+}
+
+
+
+.my,
+.plan,
+.always {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.my {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+    margin-top: 120px;
+}
+
+
+.plan h2 {
+    padding: 150px 0 50px 0;
+}
+
+.my-plan {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.skill {
+    display: block;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+
+.call {
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0 60px 60px;
+}
+
+.call-title {
+    color: #fff;
+    text-align: left;
+
+}
+
+.btn-call {
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+
+}
